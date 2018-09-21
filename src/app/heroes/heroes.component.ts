@@ -10,20 +10,20 @@ import { HeroService } from '../hero.service';
 })
 export class HeroesComponent implements OnInit {
 
-  // hero of type Hero that's equal to this Hero with this info
-  hero: Hero = {
-    id: 1,
-    name: 'Windstorm'
-  };
-  // heroes thats equal to the list thats on heroes
-  heroesOld = HEROES;
+  // // hero of type Hero that's equal to this Hero with this info
+  // hero: Hero = {
+  //   id: 1,
+  //   name: 'Windstorm'
+  // };
+  // // heroes thats equal to the list thats on heroes
+  // heroesOld = HEROES;
   heroes: Hero[];
 
-  selectedHero: Hero;
+  // selectedHero: Hero;
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  // onSelect(hero: Hero): void {
+  //   this.selectedHero = hero;
+  // }
 
   constructor(private heroService: HeroService) { }
 
